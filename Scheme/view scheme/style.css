@@ -1,0 +1,112 @@
+body {
+  background-image: url(https://cdn.androidcrew.com/headers/com.reformist.demo_dggram-header.png);
+  background-size: cover;
+    background-attachment: fixed;
+
+  font-family: Assistant, sans-serif;
+  display: flex;
+  min-height: 90vh;
+  padding :0;
+  margin: 0;
+  
+}
+.container
+{
+  width:50%;
+  height: 90%;
+  margin: 100px auto;
+  background: rgb(247, 255, 174);
+  position: relative;
+  
+}
+.container h1
+{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2%;
+}
+.container p
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.container h3
+{
+  color: #067549;
+  align: center ;
+  margin-left: 4%;
+  font-size: 30px;
+}
+.container h4
+{
+  color: #118b5b;
+  align: center ;
+  margin-left: 4%;
+  font-size: 25px;
+}
+.container img
+{
+  
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.container ul
+{
+  margin-left: 10%;
+  font-size: 15px;
+  margin-right: 10%;
+}
+a:link {
+  color: red;
+  }
+  /* A link that has been visited */
+  a:visited {
+  color: red;
+  }
+  /* A link that is hovered on */
+  a:hover {
+  color: rgb(238, 22, 22);
+  }
+  /* A link that is selected */
+  a:active {
+  color: green;
+  }
+
+  #customers {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+
+}
+  #pdf {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+  }
